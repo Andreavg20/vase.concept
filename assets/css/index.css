@@ -184,6 +184,10 @@ display: block;
     flex-basis: 50%;
 }
 
+section div img{
+    border-radius: 10px;
+}
+
 .titulosecundario {
     font-size: var(--text-subtitulo);
     font-family: var(--font-subtitulo);
