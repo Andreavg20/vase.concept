@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VASE.</title>
     <link rel="stylesheet" href="./assets/css/index.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body id="grilla">
@@ -39,7 +40,7 @@
         <section class="container">
             <h1 class="titulopagina">Vase. Concept</h1>
             <article class="flex-row">
-                <div class="imagenvase">
+                <div class="imagenvase" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                     <img src="./assets/img/vase.jpg" alt="vase. concept" width="500" height="300">
                 </div>
                 <p>V A S E. is a brand that was born with the intention of incorporating minimalism, versatility, and
@@ -88,6 +89,10 @@
         </div>
     </footer>
     <!-- Cierre de la fila de footer-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

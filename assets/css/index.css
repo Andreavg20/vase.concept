@@ -95,6 +95,7 @@ header {
     left: 0;
     right: 0;
     grid-area: header;
+    z-index: 100;
 }
 
 header .navegacion{
@@ -300,6 +301,16 @@ padding: 0 2rem;
 
 .galeria article img{
     border-radius: 10px;
+}
+
+.gridgaleria picture img{
+    border-radius: 10px;
+    width: 100%;
+    transition: transform 3s ease-in-out;
+}
+
+.gridgaleria picture img:hover{
+    transform: scale(1.1);
 }
 
 .gridgaleria{
