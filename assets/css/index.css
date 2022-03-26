@@ -44,6 +44,7 @@ body{
     font-size: var(--text-contenido);
     line-height: var(--lineheight);
     min-height: 100vh;
+    text-align: justify;
 }
 
 ul {
@@ -67,12 +68,12 @@ a {
     flex-direction: column;
 }
 
-.container {
+/*.container {
     max-width: 1080px;
     margin: 0 auto;
     text-align: justify;
     margin: auto;
-}
+}*/
 
 /*Grid*/
 
@@ -115,6 +116,10 @@ header .menu{
     flex-basis: 35%;
     background-color: var(--principal);
     justify-content: space-between;
+}
+
+header img {
+    padding-bottom: .5rem;
 }
 
 .menu .menu__item .menu__link{
@@ -554,4 +559,74 @@ footer div ul li a img{
 }
 
 
+}
+
+/*Bootstrap*/
+
+.navbar-light .navbar-nav .nav-link{
+    background-color: var(--principal);
+    padding: .6rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--colorhover);
+}
+
+.navbar-collapse{
+    justify-content: end;
+}
+
+.navbar-nav .dropdown-menu{
+    background-color: var(--principal);
+}
+
+.dropdown-item:hover{
+    background-color: var(--inputcolor);
+    color: var(--colorhover);
+}
+
+.accordion-button{
+    background-color: var(--principal);
+    font-size: var(--text-contenido);
+    padding: 1rem 0;
+    font-weight: lighter;
+}
+
+.accordion-button:hover{
+    color: var(--colorhover);
+}
+
+.accordion-button:not(.collapsed){
+    color: #000;
+    background-color: var(--inputcolor);
+}
+
+.accordion-button:focus{
+    box-shadow: 0 0 0 0.25rem rgb(220 197 168);
+}
+
+.w-100{
+    width: 50%!important;
+    text-align: center;
+}
+
+arousel-i.ctem-next, .carousel-item-prev, .carousel-item.active {
+    display: flex;
+    justify-content: center;
+}
+
+#carouselExampleControls{
+    padding-top: 5rem;
+}
+
+#accordionFlushExample{
+    padding-top: 5rem;
+}
+
+ol{
+    list-style-type: inherit;
+}
+
+.paddingtextop{
+    padding-top: 2rem;
 }
