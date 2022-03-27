@@ -265,8 +265,16 @@ section div img{
     padding-bottom: 8rem;
 }
 
+.articuloabout div p{
+    padding: 3rem 0;
+}
+
 .articuloaboutbottom {
     padding: 0 2rem;
+}
+
+.articuloaboutbottom div p{
+    padding: 3rem 0;
 }
 
 .posicionimg {
@@ -363,6 +371,7 @@ section div button {
     border-radius: 3px;
     display: inline-block;
     padding: 6px;
+    font-size: .8em;
 }
 
 section div button:hover {
@@ -394,7 +403,7 @@ input {
     width: 300px;
     height: 40px;
     margin: 3%;
-    font-size: 14px;
+    font-size: .8em;
 }
 
 textarea {
@@ -405,7 +414,7 @@ textarea {
     width: 300px;
     height: 40px;
     margin: 3%;
-    font-size: 14px;
+    font-size: .8em;
     margin-bottom: 5%;
 }
 
@@ -578,6 +587,7 @@ footer div ul li a img{
 
 .navbar-nav .dropdown-menu{
     background-color: var(--principal);
+    font-size: .8em;
 }
 
 .dropdown-item:hover{
