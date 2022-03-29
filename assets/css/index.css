@@ -50,11 +50,23 @@ ul {
     list-style-type: none;
 }
 
+ol {
+    padding-left: 3rem;
+}
+
+h4{
+    padding-top: 2rem;
+}
+
 a {
     text-decoration: none;
     color: var(--textosecundario);
     font-family: var(--font-nav);
     display: inline-block;
+}
+
+img{
+    border-radius: 10px;
 }
 
 /*Clases de ayuda*/
@@ -185,9 +197,6 @@ display: block;
     flex-basis: 50%;
 }
 
-section div img{
-    border-radius: 10px;
-}
 
 .titulosecundario {
     font-size: var(--text-subtitulo);
@@ -299,9 +308,6 @@ padding: 0 2rem;
     padding: 3rem;
 }
 
-.galeria article img{
-    border-radius: 10px;
-}
 
 .gridgaleria picture img{
     border-radius: 10px;
@@ -539,7 +545,7 @@ footer div ul li a img{
 }
 
 .gridgaleria picture img{
-    border-radius: 10px;
+    width: 300px;
 }
 
 .titulogaleria{
