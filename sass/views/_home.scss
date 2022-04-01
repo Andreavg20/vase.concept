@@ -1,0 +1,57 @@
+.main {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    grid-area: main;
+
+    .titulopagina {
+        line-height: $lineheight;
+        padding-bottom: 2.5rem;
+        text-align: center;
+        font-family: $font-titulo;
+        font-weight: extra-light 0.200;
+        font-size: $text-titulo;
+    
+    }
+
+    .imagenvase {
+        margin: auto;
+        text-align: center;
+        padding: .9rem;
+        flex-basis: 50%;
+    }
+
+    .titulosecundario {
+        font-size: $text-subtitulo;
+        font-family: $font-subtitulo;
+        font-weight: thin 0.100;
+        font-style: italic;
+        line-height: $lineheight;
+        margin-top: 4rem;
+        padding-bottom: 2rem;
+        text-align: left;    
+    }
+}
+
+@media  screen and (min-width:480px) and (max-width:720px){
+    .main {
+        padding-top: 10rem;
+        padding-bottom: 8rem;
+        grid-area: main;
+
+        section article{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .titulopagina {
+            padding-bottom: 1.8rem;
+        }
+
+        imagenvase img{
+            width: 100%;
+            min-width: 360px;
+            padding-bottom: 1.3rem;
+            padding-top: 1.3rem;
+        }
+    }   
+}

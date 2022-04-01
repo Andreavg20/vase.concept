@@ -1,0 +1,21 @@
+/*Imports*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:wght@200&display=swap');
+
+/*Misc*/
+@import './misc/variables';
+@import './misc/normalize';
+@import './misc/mixins';
+
+
+/*Partials*/
+@import './partials/header';
+@import './partials/footer';
+
+/*Views*/
+@import './views/home';
+@import './views/about';
+@import './views/gallery';
+@import './views/blog';
+@import './views/inspo';
+@import './views/portfolio';
+@import './views/contact';

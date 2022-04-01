@@ -1,0 +1,22 @@
+.tituloblog {
+    font-size: $text-subtitulo;
+    font-family: $font-subtitulo;
+    font-weight: thin 0.100;
+    font-style: italic;
+    line-height: $lineheight;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;    
+}
+
+.fechasblog {
+    font-weight: 200;
+    margin-top: 13%;
+}
+
+@media  screen and (min-width:480px) and (max-width:720px){
+    tituloblog {
+        margin-top: 1rem;
+        padding-bottom: 2rem;
+    }
+}

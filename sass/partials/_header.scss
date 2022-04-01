@@ -1,0 +1,106 @@
+header {
+    background-color: $secundario;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    grid-area: header;
+    z-index: 100;
+
+    .navegacion {
+        min-height: 8vh;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 2rem;
+        flex-wrap: wrap;
+    }
+
+    .logo {
+        margin-top: .5rem;
+        flex-basis: 30%;
+    }
+
+    .menu {
+        flex-basis: 35%;
+        background-color: $principal;
+        justify-content: space-between;
+    }
+}
+
+
+.menu .menu__item .menu__link {
+    margin: .2rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    font-size: $text-nav;
+    font-weight: extra-light 200;
+    cursor: pointer;
+
+    &:hover {
+        color: #ae8147;
+    }
+}
+
+.menu .menu__item:hover .menu-dos {
+    display: block;
+}
+
+
+.menu-dos {
+    display: none;
+    position: absolute;
+    background-color: $inputcolor;
+    padding: 0.5rem 1rem;
+    justify-items: center;
+
+    & .menu-dos__item .menu-dos__link {
+        font-size: $text-nav;
+        font-family: $font-nav;
+        color: $textosecundario;
+        transition: all .3s ease-in-out;
+    }
+
+    & .menu-dos__item .menu-dos__link:hover {
+        background-color: $principal;
+        color: $colorhover;
+    }
+}
+
+
+@media screen and (min-width:480px) and (max-width:720px) {
+    header {
+        .navegacion {
+            min-height: 4vh;
+            justify-content: space-between;
+            align-items: center;
+            padding: .2rem;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+
+        .logo {
+            margin-top: .2rem;
+            flex-basis: 30%;
+        }
+
+        &a img {
+            width: 150px;
+            height: 80px;
+        }
+    }
+
+    .menu {
+        margin-bottom: .2rem;
+
+        .menu__item .menu__link {
+            margin: .4rem;
+            padding: .3rem;
+            font-weight: bold;
+        }
+    }
+
+    .menu-dos .menu-dos__item .menu-dos__link {
+        font-weight: bold;
+    }
+
+}

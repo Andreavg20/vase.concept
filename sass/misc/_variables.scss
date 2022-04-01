@@ -1,0 +1,27 @@
+    
+    
+    $principal:#F4EDE4;
+    $secundario:#DCC5A8;
+    $textoprimario:#000;
+    $textosecundario:#826135;
+    $colorhover:#ae8147;
+    $colorboton:#E3D2BC;
+    $hoverboton:gray;
+    $inputcolor:#e8d8c5;
+    $font-titulo:"Josefin Sans";
+    $font-subtitulo:"Josefin Sans";
+    $font-nav:"Poppins", georgia;
+    $font-contenido:"Josefin Sans";
+    $text-titulo:2.8em;
+    $text-subtitulo:2.4em;
+    $text-nav:.9em;
+    $text-contenido:1.4em;
+    $lineheight: 1.5em;    
+
+    @media  screen and (min-width:480px) and (max-width:720px){
+        $text-titulo:2.4em;
+        $text-subtitulo:2em;
+        $text-nav:.7em;
+        $text-contenido:1.2em;
+        $lineheight:1.2em;
+    }

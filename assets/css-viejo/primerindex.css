@@ -1,15 +1,18 @@
 /*Imports*/
+/*
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:wght@200&display=swap');
-
+*/
 /*Normalize*/
+/*
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+*/
 
  /*Variables*/
+ /*
  :root {
     --principal:#F4EDE4;
     --secundario:#DCC5A8;
@@ -29,20 +32,20 @@
     --text-contenido:1.4em;
     --lineheight: 1.5em;
  }
-
+*/
 
 /*Globales*/
-
+/*
 html {
     font-size: 62,5%;
 }
 
 body{
-    font-family: var(--font-contenido);
-    color: var(--textoprimario);
-    background-color: var(--principal);
-    font-size: var(--text-contenido);
-    line-height: var(--lineheight);
+    font-family: $font-contenido;
+    color: $textoprimario;
+    background-color: $principal;
+    font-size: $text-contenido;
+    line-height: $lineheight);
     min-height: 100vh;
 }
 
@@ -60,16 +63,20 @@ h4{
 
 a {
     text-decoration: none;
-    color: var(--textosecundario);
-    font-family: var(--font-nav);
+    color: $textosecundario;
+    font-family: $font-nav;
     display: inline-block;
 }
 
 img{
     border-radius: 10px;
 }
+*/
+
 
 /*Clases de ayuda*/
+
+/*
 .flex-row {
     display: flex;
 }
@@ -85,9 +92,11 @@ img{
     text-align: justify;
     margin: auto;
 }
+*/
+
 
 /*Grid*/
-
+/*
 #grilla{
     display: grid;
     grid-template-areas:
@@ -96,12 +105,12 @@ img{
     "footer footer footer";
     grid-template-rows: auto 1fr auto;
 }
-
+*/
 
 /*Header*/
-
+/*
 header {
-    background-color: var(--secundario);
+    background-color: $secundario;
     position: fixed;
     top: 0;
     left: 0;
@@ -125,7 +134,7 @@ header .logo{
 
 header .menu{
     flex-basis: 35%;
-    background-color: var(--principal);
+    background-color: $principal;
     justify-content: space-between;
 }
 
@@ -133,7 +142,7 @@ header .menu{
     margin: .2rem;
     padding: 0.5rem 1rem;
     display: block;
-    font-size: var(--text-nav);
+    font-size: $text-nav;
     font-weight: extra-light 200;
     cursor: pointer;
 }
@@ -149,30 +158,30 @@ display: block;
 .menu-dos {
     display: none;
     position: absolute;
-    background-color: var(--inputcolor);
+    background-color: $inputcolor;
     padding: 0.5rem 1rem;
     justify-items: center;
 }
 
 .menu-dos .menu-dos__item .menu-dos__link{
-    font-size: var(--text-nav);
-    font-family: var(--font-nav);
-    color: var(--textosecundario);
+    font-size: $text-nav;
+    font-family: $font-nav;
+    color: $textosecundario;
     transition: all .3s ease-in-out;
 }
 
 .menu-dos .menu-dos__item .menu-dos__link:hover{
-    background-color: var(--principal);
-    color: var(--colorhover);
+    background-color: $principal;
+    color: $colorhover;
 }
-
+*/
 
 /*Fin Header*/
 
 
 /*Main*/
 
-
+/*
 .main {
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -181,12 +190,12 @@ display: block;
 
 
 .titulopagina {
-    line-height: var(--lineheight);
+    line-height: $lineheight);
     padding-bottom: 2.5rem;
     text-align: center;
-    font-family: var(--font-titulo);
+    font-family: $font-titulo;
     font-weight: extra-light 0.200;
-    font-size: var(--text-titulo);
+    font-size: $text-titulo;
 
 }
 
@@ -199,39 +208,39 @@ display: block;
 
 
 .titulosecundario {
-    font-size: var(--text-subtitulo);
-    font-family: var(--font-subtitulo);
+    font-size: $text-subtitulo;
+    font-family: $font-subtitulo;
     font-weight: thin 0.100;
     font-style: italic;
-    line-height: var(--lineheight);
+    line-height: $lineheight);
     margin-top: 4rem;
     padding-bottom: 2rem;
     text-align: left;    
 }
-
+*/
 /*Fin de Main*/
 
 /*Inicio Footer*/
-
+/*
 
 .footer {
-    background-color: var(--secundario);
+    background-color: $secundario;
     padding: 1rem;
     height: 13vh;
-    color: var(--textosecundario);
+    color: $textosecundario;
     align-items: center;
     grid-area: footer;
 }
 
 .footer a {
-    font-family: var(--font-contenido);
-    color: var(--textosecundario);
+    font-family: $font-contenido;
+    color: $textosecundario;
     text-decoration: none;
     cursor: pointer;
 }
 
 .footer a:hover{
-    color: var(--principal);
+    color: $principal;
 }
 
 .navegacionfooter ul {
@@ -258,12 +267,12 @@ display: block;
     align-items: center;
     margin: 0 2rem;
 }
-
+*/
 /*Fin de Footer*/
 
 
 /*Inicio complemento main About*/
-
+/*
 .articuloabout{
     padding: 0 2rem;
     padding-bottom: 8rem;
@@ -284,24 +293,25 @@ display: block;
 align-items: center;
 padding: 0 2rem;
 }
-
+*/
 /*Fin complemento main About*/
 
 /*Inicio complemento main Gallery*/
-
+/*
 .galeria {
     justify-content: space-between;
     align-content: center;
 }
 
+
 .titulogaleria{
-    font-size: var(--text-subtitulo);
-    font-family: var(--font-subtitulo);
+    font-size: $text-subtitulo;
+    font-family: $font-subtitulo;
     font-style: italic;
     line-height: 1.3em;
     padding-bottom: 2rem;
     padding-left: 3rem;
-    color: var(--textoprimario);
+    color: $textoprimario;
 }
 
 .imagengaleria{
@@ -330,18 +340,18 @@ padding: 0 2rem;
 }
 
 
-
+*/
 /*Fin complemento main Gallery*/
 
 
 /*Inicio complemento main Blog*/
-
+/* 
 .tituloblog {
-    font-size: var(--text-subtitulo);
-    font-family: var(--font-subtitulo);
+    font-size: $text-subtitulo;
+    font-family: $font-subtitulo;
     font-weight: thin 0.100;
     font-style: italic;
-    line-height: var(--lineheight);
+    line-height: $lineheight);
     margin-top: 2rem;
     padding-bottom: 2rem;
     text-align: left;    
@@ -351,15 +361,15 @@ padding: 0 2rem;
     font-weight: 200;
     margin-top: 13%;
 }
-
+*/
 /*Fin complemento main Blog*/
 
 /*Boton*/
-
+ /* 
 section div button {
     cursor: pointer;
     background-color: #E3D2BC;
-    color: var(--colorhover);
+    color: $colorhover;
     border: 1px solid #826135;
     border-radius: 3px;
     display: inline-block;
@@ -367,12 +377,13 @@ section div button {
 }
 
 section div button:hover {
-    color: var(--principal);
+    color: $principal;
 }
-
+*/
 
 /*Inicio complemento main Contact*/
 
+/*
 .comentarioform {
     padding-top: 1rem;
     font-weight: 200;
@@ -386,11 +397,13 @@ section div button:hover {
     justify-content: center;
     margin-top: 3%;
 }
+*/
 
+/* ME FALTA MIGRARLO
 input {
     background-color: #e8d8c5;
     border: none;
-    border-bottom: 1px solid var(--textosecundario);
+    border-bottom: 1px solid $textosecundario;
     padding: 12px;
     width: 300px;
     height: 40px;
@@ -401,7 +414,7 @@ input {
 textarea {
     background-color: #e8d8c5;
     border: none;
-    border-bottom: 1px solid var(--textosecundario);
+    border-bottom: 1px solid $textosecundario;
     padding: 12px;
     width: 300px;
     height: 40px;
@@ -409,15 +422,16 @@ textarea {
     font-size: 14px;
     margin-bottom: 5%;
 }
-
+*/
 /*Fin complemento main Contact*/
 
 
 /*MediaQ*/
+/*
 @media  screen and (min-width:480px) and (max-width:720px){
-    
+     */
 /*Variables*/
-
+/*
 :root {
     --text-titulo:2.4em;
     --text-subtitulo:2em;
@@ -425,15 +439,15 @@ textarea {
     --text-contenido:1.2em;
     --lineheight:1.2em;
 }
-
+*/
 /*Clases de ayuda*/
-
+/*
 .container{
     padding: 0 7rem;
 }
-
+*/
 /*Header*/
-
+/*
 header .navegacion{
     min-height: 4vh;
     justify-content: space-between;
@@ -469,9 +483,9 @@ header .logo a img{
 .menu-dos .menu-dos__item .menu-dos__link{
     font-weight: bold;
 }
-
+*/
 /*Main*/
-
+/*
 .main {
     padding-top: 10rem;
     padding-bottom: 8rem;
@@ -493,9 +507,9 @@ section article{
     padding-bottom: 1.3rem;
     padding-top: 1.3rem;
 }
-
+*/
 /*Footer*/
-
+/*
 .footer {
     padding: .5rem;
     height: 8vh;
@@ -525,9 +539,9 @@ footer div ul li a img{
     width: 20px;
     height: 20px;
 }
-
+*/
 /*Galeria*/
-
+/*
 .galeria {
     display: flex;
     flex-direction: column;
@@ -551,13 +565,13 @@ footer div ul li a img{
 .titulogaleria{
     text-align: center;
 }
+*/
 
 /*Blog*/
 
+/*
 .tituloblog {
     margin-top: 1rem;
     padding-bottom: 2rem;
 }
-
-
-}
+*/
