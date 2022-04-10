@@ -15,6 +15,15 @@
     margin: auto;
 }
 
+@mixin titulosecundario{
+    font-size: $text-subtitulo;
+    font-family: $font-subtitulo;
+    font-style: italic;
+    line-height: $lineheight;
+    padding-bottom: 2rem;  
+}
+
+
 @media  screen and (min-width:480px) and (max-width:720px){
     .container{
         padding: 0 7rem;

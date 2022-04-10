@@ -1,5 +1,5 @@
 header {
-    background-color: $secundario;
+    background-color: map-get($mapadecolores, secundario);
     position: fixed;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@ header {
 
     .menu {
         flex-basis: 35%;
-        background-color: $principal;
+        background-color: map-get($mapadecolores, principal );
         justify-content: space-between;
     }
 }
@@ -37,7 +37,7 @@ header {
     cursor: pointer;
 
     &:hover {
-        color: #ae8147;
+        color: map-get($mapadecolores, colorhover);
     }
 }
 
@@ -49,20 +49,20 @@ header {
 .menu-dos {
     display: none;
     position: absolute;
-    background-color: $inputcolor;
+    background-color: map-get($mapadecolores, inputcolor );
     padding: 0.5rem 1rem;
     justify-items: center;
 
     & .menu-dos__item .menu-dos__link {
         font-size: $text-nav;
         font-family: $font-nav;
-        color: $textosecundario;
+        color: map-get($mapadecolores, textosecundario );
         transition: all .3s ease-in-out;
     }
 
     & .menu-dos__item .menu-dos__link:hover {
-        background-color: $principal;
-        color: $colorhover;
+        background-color: map-get($mapadecolores, principal );
+        color: map-get($mapadecolores, colorhover );
     }
 }
 

@@ -13,9 +13,9 @@
 }
 
 input {
-    background-color: #e8d8c5;
+    background-color: map-get($mapadecolores, inputcolor);
     border: none;
-    border-bottom: 1px solid $textosecundario;
+    border-bottom: 1px solid map-get($mapadecolores, textosecundario );
     padding: 12px;
     width: 300px;
     height: 40px;
@@ -24,29 +24,23 @@ input {
 }
 
 textarea {
-    background-color: #e8d8c5;
-    border: none;
-    border-bottom: 1px solid $textosecundario;
-    padding: 12px;
-    width: 300px;
-    height: 40px;
-    margin: 3%;
-    font-size: 14px;
+    @extend input;
     margin-bottom: 5%;
+    resize: none;
 }
 
 /*Boton*/
 
 section div button {
     cursor: pointer;
-    background-color: #E3D2BC;
-    color: $colorhover;
-    border: 1px solid #826135;
+    background-color: map-get($mapadecolores, colorboton );
+    color: map-get($mapadecolores, colorhover );
+    border: 1px solid map-get($mapadecolores, textosecundario);
     border-radius: 3px;
     display: inline-block;
     padding: 6px;
 }
 
 section div button:hover {
-    color: $principal;
+    color: map-get($mapadecolores, principal );
 }

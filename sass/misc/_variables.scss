@@ -1,13 +1,13 @@
     
     
-    $principal:#F4EDE4;
+    /*$principal:#F4EDE4;
     $secundario:#DCC5A8;
     $textoprimario:#000;
     $textosecundario:#826135;
     $colorhover:#ae8147;
     $colorboton:#E3D2BC;
     $hoverboton:gray;
-    $inputcolor:#e8d8c5;
+    $inputcolor:#e8d8c5;*/
     $font-titulo:"Josefin Sans";
     $font-subtitulo:"Josefin Sans";
     $font-nav:"Poppins", georgia;
@@ -25,3 +25,13 @@
         $text-contenido:1.2em;
         $lineheight:1.2em;
     }
+
+    $mapadecolores: (
+        principal: #F4EDE4,
+        secundario:#DCC5A8,
+        textoprimario:#000,
+        textosecundario:#826135,
+        colorhover:#ae8147,
+        colorboton:#E3D2BC,
+        inputcolor:#e8d8c5,
+); 

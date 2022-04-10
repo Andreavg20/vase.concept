@@ -1,20 +1,20 @@
 .footer {
-    background-color: $secundario;
+    background-color: map-get($mapadecolores, secundario);
     padding: 1rem;
     height: 13vh;
-    color: $textosecundario;
+    color: map-get($mapadecolores, textosecundario );
     align-items: center;
     grid-area: footer;
 
     a {
         font-family: $font-contenido;
-        color: $textosecundario;
+        color: map-get($mapadecolores, textosecundario);
         text-decoration: none;
         cursor: pointer;
     }
 
     & a:hover {
-        color: $principal;
+        color: map-get($mapadecolores, principal );
     }
 }
 

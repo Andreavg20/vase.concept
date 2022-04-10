@@ -13,8 +13,8 @@ html {
 
 body{
     font-family: $font-contenido;
-    color: $textoprimario;
-    background-color: $principal;
+    color: map-get($mapadecolores, textoprimario);
+    background-color: map-get($mapadecolores, principal );
     font-size: $text-contenido;
     line-height: $lineheight;
     min-height: 100vh;
@@ -34,7 +34,7 @@ h4{
 
 a {
     text-decoration: none;
-    color: $textosecundario;
+    color: map-get($mapadecolores, textosecundario );
     font-family: $font-nav;
     display: inline-block;
 }

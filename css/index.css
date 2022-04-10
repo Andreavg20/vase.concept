@@ -1,6 +1,14 @@
 /*Imports*/
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100&family=Poppins:wght@200&display=swap");
 /*Misc*/
+/*$principal:#F4EDE4;
+    $secundario:#DCC5A8;
+    $textoprimario:#000;
+    $textosecundario:#826135;
+    $colorhover:#ae8147;
+    $colorboton:#E3D2BC;
+    $hoverboton:gray;
+    $inputcolor:#e8d8c5;*/
 /*Normalize*/
 * {
   margin: 0;
@@ -212,11 +220,11 @@ header {
   .main .titulosecundario {
     font-size: 2.4em;
     font-family: "Josefin Sans";
-    font-weight: thin 0.100;
     font-style: italic;
     line-height: 1.5em;
-    margin-top: 4rem;
     padding-bottom: 2rem;
+    font-weight: thin 0.100;
+    margin-top: 4rem;
     text-align: left; }
 
 @media screen and (min-width: 480px) and (max-width: 720px) {
@@ -260,7 +268,7 @@ header {
   font-size: 2.4em;
   font-family: "Josefin Sans";
   font-style: italic;
-  line-height: 1.3em;
+  line-height: 1.5em;
   padding-bottom: 2rem;
   padding-left: 3rem;
   color: #000; }
@@ -326,7 +334,7 @@ header {
   justify-content: center;
   margin-top: 3%; }
 
-input {
+input, textarea {
   background-color: #e8d8c5;
   border: none;
   border-bottom: 1px solid #826135;
@@ -337,15 +345,8 @@ input {
   font-size: 14px; }
 
 textarea {
-  background-color: #e8d8c5;
-  border: none;
-  border-bottom: 1px solid #826135;
-  padding: 12px;
-  width: 300px;
-  height: 40px;
-  margin: 3%;
-  font-size: 14px;
-  margin-bottom: 5%; }
+  margin-bottom: 5%;
+  resize: none; }
 
 /*Boton*/
 section div button {

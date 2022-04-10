@@ -4,13 +4,9 @@
 }
 
 .titulogaleria {
-    font-size: $text-subtitulo;
-    font-family: $font-subtitulo;
-    font-style: italic;
-    line-height: 1.3em;
-    padding-bottom: 2rem;
+    @include titulosecundario;
     padding-left: 3rem;
-    color: $textoprimario;
+    color: map-get($mapadecolores, textoprimario );
 }
 
 .imagengaleria {
