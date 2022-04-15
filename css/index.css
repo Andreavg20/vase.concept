@@ -177,28 +177,28 @@ header {
   align-items: center;
   margin: 0 2rem; }
 
-@media screen and (min-width: 480px) and (max-width: 720px) {
+@media screen and (min-width: 480px) and (max-width: 721px) {
   .footer {
-    padding: .5rem;
+    padding: .2rem;
     height: 8vh;
     font-size: .9em; }
     .footer div ul li a img {
-      width: 20px;
-      height: 20px; }
+      width: 5px;
+      height: 5px; }
   .navegacionfooter ul li {
     display: inline-block;
     justify-content: center;
     align-items: center; }
   .navegacionfootera {
-    font-size: .9em;
+    font-size: .7em;
     display: block;
-    padding: .4rem;
+    padding: .2rem;
     align-items: center; } }
 
 .info-redes {
   justify-content: space-between;
   align-items: center;
-  margin: 0 .4rem; }
+  margin: 0 .2rem; }
 
 /*Views*/
 .main {
@@ -228,6 +228,22 @@ header {
     text-align: left; }
 
 @media screen and (min-width: 480px) and (max-width: 720px) {
+  .main {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+    grid-area: main; }
+    .main section article {
+      display: flex;
+      flex-direction: column; }
+    .main .titulopagina {
+      padding-bottom: 1.8rem; }
+    .main imagenvase img {
+      width: 100%;
+      min-width: 360px;
+      padding-bottom: 1.3rem;
+      padding-top: 1.3rem; } }
+
+@media screen and (min-width: 414px) and (max-width: 480px) {
   .main {
     padding-top: 10rem;
     padding-bottom: 8rem;
